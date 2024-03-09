@@ -1,7 +1,7 @@
 .card {
   padding: 10px 5px;
   width: 100px;
-  border: 2px solid #000;
+  border: 2px solid var(--color-dark);
   border-radius: 5px;
   text-align: center;
 }
@@ -13,8 +13,8 @@
   font-size: 24px;
 }
 .online {
-  color: green;
+  color: var(--color-online);
 }
 .offline {
-  color: red;
+  color: var(--color-offline);
 }
